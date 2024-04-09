@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.Calcomponent{
+  background-color: rgb(98, 151, 134);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 3px solid rgb(8, 173, 52);
+
+}
+.Calcomponent:hover{
+  box-shadow: 1px 9px 9px rgb(171, 202, 31);
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +50,4 @@
 .read-the-docs {
   color: #888;
 }
+

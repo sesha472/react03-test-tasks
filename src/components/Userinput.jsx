@@ -9,7 +9,7 @@ const Userinput = () => {
    const  {username,password,email} = data;
 
     const changeInputhandler=(e)=>{
-        setdata({...data,[e.target.name]:[e.target.value]})
+        setdata({...data,[e.target.name]:e.target.value})
 
     }
     const submitHandler=(e)=>{
@@ -46,7 +46,6 @@ const Userinput = () => {
       /><br/>
       <input type='submit'/>
       </form>
-      {username}
     </div>
   );
 }
