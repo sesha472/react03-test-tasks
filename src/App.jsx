@@ -1,22 +1,18 @@
 
-import { Routes,Route } from 'react-router-dom'
-import './App.css'
-import Calculations from './components/Calculations'
-import Datagetting from './components/Datagetting'
-import Firebaseupload from './components/Firebaseupload'
-import Mathcalculations from './components/Mathcalculations'
-import User from './components/Userinput'
-import Navbar from './components/Navbar'
+import { Routes,Route } from 'react-router-dom';
+import './App.css';
+import Calculations from './components/Calculations';
+import Datagetting from './components/Datagetting';
+import Firebaseupload from './components/Firebaseupload';
+import Mathcalculations from './components/Mathcalculations';
+import User from './components/Userinput';
+import Navbar from './components/Navbar';
 import Errormsg from './Errormsg';
 
 
 function App() {
-
   return (
-    
       <>
-
-
         <nav>
     <Navbar/>
 

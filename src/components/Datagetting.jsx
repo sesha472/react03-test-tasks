@@ -14,7 +14,7 @@ const Datagetting = () => {
 
     const [serverdata, setserverdata] = useState([]);
     useEffect(() => {
-       axios.get('https://sesha-user-data24-default-rtdb.firebaseio.com/rigister.json').
+       axios.get('https://jsonplaceholder.typicode.com/posts').
        then(response=>setserverdata(response.data))
     
       
@@ -22,9 +22,9 @@ const Datagetting = () => {
     
     
   return (
-    <div style={{backgroundColor:'orange',alignItems:'start'}}>
+    <div style={{backgroundColor:'#8889832' ,margin:"auto 4em ",listStyle:"inherit",textAlign:"left" ,borderRadius:"10px", listStyleType: "square",fontSize:"1.2em"}}>
         <h1 >Data getting </h1>
-        {/* {serverdata.map((item,index)=><li key={index}>{item.title}</li>)} */}
+        {serverdata.map((item,index)=><li style={{margin:"1em 1em"}} key={index}>{item.title}</li>)}
       
     </div>
   )

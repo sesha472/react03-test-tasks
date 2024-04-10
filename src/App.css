@@ -59,16 +59,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
+  border-radius: 10px;
+  box-shadow: 3px 4px 8px black;
 
 }
 .navbar a{
-  background-color: rgb(77, 96, 125);
+  background-color: rgb(42, 85, 101);
   margin:1em;
-  color: burlywood;
+  color: rgb(235, 231, 225);
   padding: 1em;
   border-radius: 10px;
+  box-shadow: 3px 5px 6px rgb(58, 58, 87);
 
+}
+.navbar a:hover{
+  color: rgb(80, 255, 208);
+  box-shadow: 3px 5px 6px rgb(58, 81, 87);
+  background-color: rgb(14, 32, 97);
 
 
 }
