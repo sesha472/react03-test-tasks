@@ -1,13 +1,15 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
   text-align: center;
+  /* background-color: rgb(132, 255, 0); */
 }
 
 .Calcomponent{
   background-color: rgb(98, 151, 134);
-  padding: 1rem;
+  padding: 3rem;
+  margin:10em 2em ;
   border-radius: 10px;
   border: 3px solid rgb(8, 173, 52);
 
@@ -43,11 +45,30 @@
   }
 }
 
-.card {
+/* .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
-}
+} */
 
+.navbar{
+  margin: 2em;
+  background-color: #888;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+}
+.navbar a{
+  background-color: rgb(77, 96, 125);
+  margin:1em;
+  color: burlywood;
+  padding: 1em;
+  border-radius: 10px;
+
+
+
+}
