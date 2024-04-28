@@ -9,6 +9,7 @@ function Navbar() {
         <NavLink to="mathcalculations" > mathcalculations</NavLink>
         <NavLink to="firebaseupload" > firebaseupload</NavLink>
         <NavLink to="user" > userdata</NavLink>
+        <NavLink to='incrimentReducer'>incrimentReducer</NavLink>
     </div>
   )
 }

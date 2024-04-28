@@ -8,6 +8,7 @@ import Mathcalculations from './components/Mathcalculations';
 import User from './components/Userinput';
 import Navbar from './components/Navbar';
 import Errormsg from './Errormsg';
+import IncrimentReducer from './components/IncrimentReducer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/firebaseupload" element={<Firebaseupload/>}/>
           <Route path="/user" element={<User/>}/>
           <Route path="/*" element={<Errormsg/>}/>
+          <Route path='/incrimentReducer' element={<IncrimentReducer/>}/>
 
          </Routes>
         </nav>

@@ -12,6 +12,7 @@ const Mathcalculations = () => {
     const submithandler=(e)=>{
      e.preventDefault();
       setresult(eval(data));
+      setdata('');
     }
     
   return (
@@ -19,7 +20,7 @@ const Mathcalculations = () => {
     <form onSubmit={submithandler} style={{backgroundColor :"lightgreen"}}>
     <input
         type="text"
-        placeholder="userinput"
+        placeholder="Enter The Values..."
         name="data"
         value={data}
         onChange={inputHandler}
