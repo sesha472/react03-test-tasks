@@ -9,6 +9,7 @@ import User from './components/Userinput';
 import Navbar from './components/Navbar';
 import Errormsg from './Errormsg';
 import IncrimentReducer from './components/IncrimentReducer';
+import  Testhook  from './components/Testhook';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
          <Routes>
 
           <Route path="/" element={<Calculations/>}/> 
+          <Route path="/testhook" element={<Testhook/>}/>
           <Route path="/datagetting" element={<Datagetting/>}/>
           <Route path="/mathcalculations" element={<Mathcalculations/>}/>
           <Route path="/firebaseupload" element={<Firebaseupload/>}/>
@@ -31,7 +33,6 @@ function App() {
         </nav>
       </>
       
-    
   )
 }
 
